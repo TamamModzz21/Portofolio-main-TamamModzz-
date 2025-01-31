@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.loading-container {
+    text-align: center;
+}
+
+.loading-container img {
+    width: 100px;
+}
+
+.loading-text {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
