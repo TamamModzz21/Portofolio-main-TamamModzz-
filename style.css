@@ -51,6 +51,11 @@ a:hover {
     color: var(--secondary-color);
 }
 
+link[rel="icon"] {
+    width: 32px; 
+    height: 32px;
+}
+
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -157,7 +162,8 @@ color: #6e5494;
 
 section {
     padding: 2rem 0;
-    min-height: 100vh;
+    min-height: auto;
+    padding: 4rem 0;
     display: flex;
     align-items: center;
 }
@@ -182,14 +188,15 @@ section {
 }
 
 .home-img {
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 
 .home-content {
+    margin-top: -2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -394,12 +401,14 @@ section {
 }
 
 .section-home {
+    padding: calc(3rem - 2px) 0;
     background-color: var(--background-dark);
     color: var(--text-light);
     text-align: center;
 }
 
 .section-home h1 {
+    margin-top: -2px; 
     font-size: 2.5rem;
 }
 
